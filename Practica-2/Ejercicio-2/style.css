@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilos generales */
 *{
     padding: 0;
@@ -94,4 +95,102 @@ button:hover{
         grid-template-rows: auto; /* filas en auto*/
         padding: 20px;
     }
+=======
+/* Estilos generales */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+h1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+p{
+    color: #555;
+}
+button{
+    background-color: #66f;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: #d37;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+/* Contenedor principal (main) */
+.container{
+    max-width: 800px;
+}
+/* Contenedor projectos (section) */
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* 2 columnas de 1 fr cada una*/
+    grid-template-rows: repeat(2, 1fr); /* 2 filas de 1 fr cada una */
+    gap: 10px; /* Espacio entre filas y comlumnas */
+    padding: 10px;
+}
+
+/* Estilos de las targetas */
+.project-container .project-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas de 1 fr cada una*/
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Estilo del contenedor de la imagen */
+.project-container .project-card .img-container{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos del contenedor de descripcion de projectos */
+.project-container .project-card .description-container{
+    display: grid;
+    grid-template-columns: 1fr; /* una columna de 1 fr*/
+    grid-template-rows: auto; /* filas auto*/
+    padding: 5px;
+}
+
+/* Media quieries */
+@media only screen and (max-width:450px) {
+    .project-container{
+        grid-template-columns: 1fr; /* el contenedor de projectos pasa a tener solo 1 columna*/
+        grid-template-rows:repeat(2,auto); /* 2 filas */ 
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:650px) {
+    .project-container .project-card{
+        grid-template-columns:1fr; /* la targeta pasa a tener 1 sola columna*/
+        grid-template-rows: auto; /* filas en auto*/
+        padding: 20px;
+    }
+>>>>>>> db88789642841afd2e6305c8b957fdd8e41e6107
 }
