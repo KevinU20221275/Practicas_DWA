@@ -1,0 +1,104 @@
+/* Etilos */
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Esta regla podria ser utilizada para dar formato
+alos elementos de una cuadricula o diseño de columnas en una pagina web
+asegurandose de que tengan espacio y se alineen correctamente */
+[class*="col-"]{
+    float: left;
+    padding: 1rem;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #53b5e5;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+.menu {
+    background-color: #53b5e5;
+    padding: 1.2rem;
+    color: #fff;
+    text-align: left;
+    font-size: 1rem; /* Aumenta el tamaño de la fuente */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Ajusta la sombra */
+    width: 100%; /* Toma todo el ancho de la pagina */
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+    background-color: #2100df;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+.asig{
+    background-color: #2100df;
+    padding: 1rem;
+    color: #fff;
+    text-align: left;
+    font-size: 0.9rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+    background-color: #2100df;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+/* */
+@media (min-width: 600px){
+    body {
+        background-color: #af8888;
+    }
+
+    .menu, .asig, .footer {
+        background-color: #af5555;
+    }
+
+    .col-1{width: 40%;}
+    .col-2{width: 60%;}
+}
+
+@media (min-width: 760px){
+    body {
+        background-color: #e4d8f8;
+    }
+
+    .menu, .asig, .footer {
+        background-color: #aa00bd;
+    }
+
+    .col-2{width: 30%;}
+    .col-3{width: 30%;}
+}
