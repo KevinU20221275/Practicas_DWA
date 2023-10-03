@@ -1,6 +1,6 @@
 /* ESTILOS EJERCICIO 1 */
 
-/* .navbar-nav {
+.navbar-nav {
     display: flex;
     justify-content: space-around;
 }
@@ -25,7 +25,7 @@
 .nav-link:hover {
     background-color: white;
     color: rgba(123,198,199,0.8);
-} */
+}
 
 /* -------------------------------- */
 /* ESTILOS EJERCICIO 2 */
@@ -63,7 +63,7 @@
 
 /* EJERCICIO 3 */
 /* Contenedor de las targetas */
-.card-container {
+/* .card-container {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(min(250px,100%), 300px));
@@ -103,39 +103,7 @@
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
-/* .custom-card {
-    margin-top: 30px;
-    flex: 0;
-    width: 100px;
-}
-
-.card-title {
-    background-color: #332703;
-    color: #fefcfc;
-    margin: 4px;
-    height: 40px;
-    text-align: center;
-    padding: 10px 10px;
-}
-
-.card-body {
-    padding: 20px;
-
-}
-
-.card-footer {
-    height: 40px;
-    text-align: center;
-    color: #065c0e;
-    padding: 10px;
-}
-
-.card img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 } */
+
+
+    
