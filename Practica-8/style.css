@@ -1,0 +1,89 @@
+/* Estilos para las filas */
+.row {
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Estilos para las columnas en dispositivos medianos */
+@media (min-width: 770px){
+    .col-md-1{
+        background-color: rgb(184, 108, 235);
+        border: 1px solid black;
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-2 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-3 {
+        flex: 25%;
+        max-width: 25%;
+    }
+
+    .col-md-4 {
+        background-color: rgb(184, 108, 235);
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-5 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-6 {
+        background-color: rgb(184, 108, 235);
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-7 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-8 {
+        background-color: rgb(184, 108, 235);
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-9 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-10 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-11 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+    .col-md-12 {
+        flex: 10%;
+        max-width: 10%;
+    }
+
+}
+
+/* estilos para las columnas con contenido */
+.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+    position: relative;
+    width: 100%;
+}
