@@ -1,0 +1,117 @@
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el primer parrafo */
+.textoUno {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f0652e;
+}
+
+/* Estilo para el segundo parrafo */
+.texto {
+    font-size: 10px;
+    color: #c240ce;
+}
+
+/* Estilo para el contenido dentro del div */
+.contenido{
+    background-color: #00ff62;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/* Estilo para el div con borde */
+.border-contenido {
+    background-color: #ffee00;
+    color: #0f0c0c;
+    padding: 10px;
+    font-weight: bold;
+    border: rgb(17,17,17) 1px solid;
+}
+
+
+/* Estilos para la tabla principal */
+.tabla-principal {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilos  para las celdas de encabezado*/
+.tabla-principal th {
+    background-color: #0a4044;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border: rgb(17,17,17) 1px solid;
+}
+
+
+/* Estilos para la celda de datos */
+.tabla-principal td {
+    text-align: center;
+    padding: 5px;
+    background-color: #b5eca7;
+    color: #1a1616;
+    border: rgb(17,17,17) 1px solid;
+}
+
+
+/* Estilo para el boton*/
+.boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el boton borde */
+.borde-boton {
+    background-color: transparent;
+    color: #f86969;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para la tabla */
+.table-primary{
+    background-color: #8a5042;
+    color: #0e0a0a;
+    font-weight: bold;
+}
+
+
+/* Estilos para las tablas impares */
+.table-striped tbody tr:nth-child(odd){
+    background-color: #ec6d5d;
+    text-align: center;
+}
+
+.boton {
+    background-color: #ca23e0;
+}
+
+.borde-boton {
+    background-color: transparent;
+    color: #1a0c0b;
+    border: 2px solid #e21d1d;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.enlace {
+    color: #4708db;
+    text-decoration: none;
+}
+
+.link-primary:hover{
+    text-decoration: underline;
+}
