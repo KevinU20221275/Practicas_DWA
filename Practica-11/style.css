@@ -1,0 +1,17 @@
+/* Estilo para el navbar con color de fondo */
+.navbar {
+    background-color: #ffdead;
+    padding: 10px 0; /* Espacio interno arriba y abajo del contenido del navbar */
+    text-align: center; /* Centrar el contenido del navbar */
+    font-weight: bold; /* para poner la letra negrita */
+}
+
+.titulo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-fluid {
+    height: 10%;
+    width: 100%;
+}
